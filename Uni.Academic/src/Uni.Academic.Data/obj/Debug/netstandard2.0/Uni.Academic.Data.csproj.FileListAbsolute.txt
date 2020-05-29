@@ -1,0 +1,4 @@
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Core.dll
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.csprojAssemblyReference.cache
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.AssemblyInfoInputs.cache
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.AssemblyInfo.cs
