@@ -1,0 +1,37 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.1/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.1": {},
+    ".NETStandard,Version=v2.1/": {
+      "Uni.Academic.Core/1.0.0": {
+        "dependencies": {
+          "Uni.Academic.Shared": "1.0.0"
+        },
+        "runtime": {
+          "Uni.Academic.Core.dll": {}
+        }
+      },
+      "Uni.Academic.Shared/1.0.0": {
+        "runtime": {
+          "Uni.Academic.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Uni.Academic.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Uni.Academic.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

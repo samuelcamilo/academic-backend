@@ -1,4 +1,14 @@
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Core.dll
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Data.deps.json
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Data.dll
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.csprojAssemblyReference.cache
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.AssemblyInfoInputs.cache
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.AssemblyInfo.cs
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Data.pdb
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Core.dll
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Shared.dll
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Core.pdb
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\bin\Debug\netstandard2.0\Uni.Academic.Shared.pdb
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.csproj.CopyComplete
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.dll
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.pdb
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data\obj\Debug\netstandard2.0\Uni.Academic.Data.csproj.CoreCompileInputs.cache

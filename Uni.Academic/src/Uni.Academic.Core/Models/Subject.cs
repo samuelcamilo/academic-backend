@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Uni.Academic.Core.Commons;
 
 namespace Uni.Academic.Core.Models

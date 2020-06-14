@@ -1,3 +1,7 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
 
 namespace Uni.Academic.Core.Models
 {
@@ -8,7 +12,7 @@ namespace Uni.Academic.Core.Models
         public long QualificationId { get; private set; }
         public Qualification Qualification { get; private set; }
 
-        public UserQualifications(long userId, long qualificationId) 
+        public UserQualifications(long userId, long qualificationId)
         {
             this.UserId = userId;
             this.QualificationId = qualificationId;

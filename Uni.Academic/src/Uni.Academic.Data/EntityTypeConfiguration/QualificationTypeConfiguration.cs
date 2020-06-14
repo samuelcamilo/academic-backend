@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using Uni.Academic.Core.Models;
 
-namespace Uni.Academic.Infrastructure.EntityTypeConfiguration
+namespace Uni.Academic.Data.EntityTypeConfiguration
 {
     public class QualificationTypeConfiguration : IEntityTypeConfiguration<Qualification>
     {
@@ -17,7 +17,6 @@ namespace Uni.Academic.Infrastructure.EntityTypeConfiguration
             builder.Property(x => x.FinishedDate).IsRequired();
 
             builder.ToTable("Qualifications");
-
             builder.ApplyDefaultConfig();
         }
     }

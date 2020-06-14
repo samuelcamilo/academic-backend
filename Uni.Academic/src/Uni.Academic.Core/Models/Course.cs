@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Uni.Academic.Core.Commons;
 
 namespace Uni.Academic.Core.Models
@@ -10,5 +10,5 @@ namespace Uni.Academic.Core.Models
         public List<CourseSubjects> CourseSubjects { get; private set; }
 
         public Course() { }
-    }   
+    }
 }

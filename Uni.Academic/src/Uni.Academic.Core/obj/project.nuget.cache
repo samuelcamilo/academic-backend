@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yBrJPJrdDaQ2WtZvSSm7eqkgryZh63bHuNvLdqgD3AvSsqJNAAlvLMcYelkLcmUMuoRVQSPXnsu9eynEc+vPgQ==",
+  "dgSpecHash": "im2OyzWEI045zCBYMNiwTEb+hgaG4V+ZOCY/ncWvtonNchb7L6VecRvRKq2cGHUylu5NeEZ8Tsrdh82UMR3E1w==",
   "success": true,
   "projectFilePath": "E:\\Development\\GitHub\\academic-backend\\Uni.Academic\\src\\Uni.Academic.Core\\Uni.Academic.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ssamu\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\ssamu\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\ssamu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
   ],
   "logs": []
 }

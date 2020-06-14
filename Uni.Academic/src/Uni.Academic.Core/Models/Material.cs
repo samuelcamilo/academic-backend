@@ -1,4 +1,4 @@
-using Uni.Academic.Core.Commons;
+﻿using Uni.Academic.Core.Commons;
 
 namespace Uni.Academic.Core.Models
 {

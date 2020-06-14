@@ -1,3 +1,9 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+
 namespace Uni.Academic.Core.Models
 {
     public class SubjectUsers
@@ -7,10 +13,10 @@ namespace Uni.Academic.Core.Models
         public long StudentId { get; private set; }
         public User Student { get; private set; }
 
-        public SubjectUsers(long subjectId, long userId) 
+        public SubjectUsers(long subjectId, long studentId)
         {
             this.SubjectId = subjectId;
-            this.StudentId = userId;
+            this.StudentId = studentId;
         }
     }
 }

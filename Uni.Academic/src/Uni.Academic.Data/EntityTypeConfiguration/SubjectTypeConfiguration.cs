@@ -13,9 +13,14 @@ namespace Uni.Academic.Data.EntityTypeConfiguration
 
             builder.HasOne(x => x.Teacher)
                 .WithMany()
-                .HasForeignKey(x => x.TeacherId);
-
+                .IsRequired()
+                .HasForeignKey(x => x.TeacherId)
+                .OnDelete(DeleteBehavior.Restrict);
+                
             builder.Property(x => x.Period).HasMaxLength(20);
+
+            builder.ToTable("Subjects");
+            builder.ApplyDefaultConfig();
         }
     }
 }

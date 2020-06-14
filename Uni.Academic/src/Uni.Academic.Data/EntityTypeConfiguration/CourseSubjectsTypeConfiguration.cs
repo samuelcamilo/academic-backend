@@ -9,7 +9,7 @@ namespace Uni.Academic.Data.EntityTypeConfiguration
         public void Configure(EntityTypeBuilder<CourseSubjects> builder)
         {
             builder.HasKey(pk => new { pk.CourseId, pk.SubjectId });
-            
+
             builder.HasOne(x => x.Course)
                 .WithMany(x => x.CourseSubjects)
                 .IsRequired()

@@ -22,7 +22,7 @@ namespace Uni.Academic.Data.EntityTypeConfiguration
                 .HasForeignKey(x => x.StudentId)
                 .OnDelete(DeleteBehavior.Cascade);
 
-            builder.ToTable("SubjecUsers");
+            builder.ToTable("SubjectUsers");
         }
     }
 }

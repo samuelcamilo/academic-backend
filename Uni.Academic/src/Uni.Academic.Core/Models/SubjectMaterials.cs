@@ -1,3 +1,4 @@
+﻿
 namespace Uni.Academic.Core.Models
 {
     public class SubjectMaterials
@@ -7,7 +8,7 @@ namespace Uni.Academic.Core.Models
         public long MaterialId { get; private set; }
         public Material Material { get; private set; }
 
-        public SubjectMaterials(long subjectId, long materialId) 
+        public SubjectMaterials(long subjectId, long materialId)
         {
             this.SubjectId = subjectId;
             this.MaterialId = materialId;

@@ -4,7 +4,7 @@ using System.Linq;
 using Uni.Academic.Core.Models;
 using Uni.Academic.Shared.Extensions;
 
-namespace Uni.Academic.Infrastructure
+namespace Uni.Academic.Data
 {
     public class AcademicContext : DbContext
     {
@@ -24,19 +24,17 @@ namespace Uni.Academic.Infrastructure
 
         public AcademicContext(DbContextOptions<AcademicContext> options)
             : base(options) { }
-        
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.UseIdentityColumns();
 
-            var baseType = typeof(IEntityTypeConfiguration<>);
-
             typeof(AcademicContext)
-                .Assembly
-                .GetTypes()
-                .Where(t => t.GetInterfaces().Any(gi => gi.IsGenericType && gi.GetGenericTypeDefinition() == baseType))
-                .Select(t => (dynamic)Activator.CreateInstance(t))
-                .ForEach(configurationInstace => modelBuilder.ApplyConfiguration(configurationInstace));
+                 .Assembly
+                 .GetTypes()
+                 .Where(t => t.GetInterfaces().Any(gi => gi.IsGenericType && gi.GetGenericTypeDefinition() == typeof(IEntityTypeConfiguration<>)))
+                 .Select(t => (dynamic)Activator.CreateInstance(t))
+                 .ForEach(configurationInstance => modelBuilder.ApplyConfiguration(configurationInstance));
 
             base.OnModelCreating(modelBuilder);
 

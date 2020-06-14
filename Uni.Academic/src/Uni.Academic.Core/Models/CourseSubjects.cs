@@ -1,3 +1,4 @@
+﻿
 namespace Uni.Academic.Core.Models
 {
     public class CourseSubjects
@@ -7,7 +8,7 @@ namespace Uni.Academic.Core.Models
         public long SubjectId { get; private set; }
         public Subject Subject { get; private set; }
 
-        public CourseSubjects(long courseId, long subjectId) 
+        public CourseSubjects(long courseId, long subjectId)
         {
             this.CourseId = courseId;
             this.SubjectId = subjectId;

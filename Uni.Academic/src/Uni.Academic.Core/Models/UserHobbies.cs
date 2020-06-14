@@ -1,3 +1,7 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
 
 namespace Uni.Academic.Core.Models
 {
@@ -8,7 +12,7 @@ namespace Uni.Academic.Core.Models
         public long HobbieId { get; private set; }
         public Hobbie Hobbie { get; private set; }
 
-        public UserHobbies(long userId, long hobbieId) 
+        public UserHobbies(long userId, long hobbieId)
         {
             this.UserId = userId;
             this.HobbieId = hobbieId;
