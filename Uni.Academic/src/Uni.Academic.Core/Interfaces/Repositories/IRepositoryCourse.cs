@@ -4,6 +4,6 @@ namespace Uni.Academic.Core.Interfaces.Repositories
 {
     public interface IRepositoryCourse : IRepository<Course>
     {
-        bool ExistsCourseWithDescription(string description);
+        bool ExistsCourse(string description);
     }
 }

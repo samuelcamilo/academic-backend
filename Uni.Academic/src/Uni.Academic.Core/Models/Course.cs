@@ -10,5 +10,11 @@ namespace Uni.Academic.Core.Models
         public List<CourseSubjects> CourseSubjects { get; private set; }
 
         public Course() { }
+
+        public Course(string description, string resume)
+        {
+            this.Description = description;
+            this.Resume = resume;
+        }
     }
 }

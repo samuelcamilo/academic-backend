@@ -9,7 +9,7 @@ namespace Uni.Academic.Data.Repositories
         public RepositoryCourse(AcademicContext academicContext)
             : base(academicContext) { }
 
-        public bool ExistsCourseWithDescription(string description)
+        public bool ExistsCourse(string description)
             => _currentSet.Any(x => x.Description == description);
     }
 }

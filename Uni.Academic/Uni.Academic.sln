@@ -7,19 +7,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EEE73E6-71C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 - Presentation", "1.0 - Presentation", "{9A3FC5EF-F10A-4AEB-8832-DC7444FD0480}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uni.Academic.Web", "src\Uni.Academic.Web\Uni.Academic.Web.csproj", "{BD159D6F-BF3C-4783-B411-445B034F009E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Web", "src\Uni.Academic.Web\Uni.Academic.Web.csproj", "{BD159D6F-BF3C-4783-B411-445B034F009E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.0 - Core", "2.0 - Core", "{89313A88-8001-4210-827B-9423B72496F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uni.Academic.Core", "src\Uni.Academic.Core\Uni.Academic.Core.csproj", "{81E0B5CA-3028-4DF9-A64A-F92610E4261C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Core", "src\Uni.Academic.Core\Uni.Academic.Core.csproj", "{81E0B5CA-3028-4DF9-A64A-F92610E4261C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Infrastructure", "3.0 - Infrastructure", "{55320C0E-CF2C-4A4B-9514-7D6C0FF2C82E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 - CrossCutting", "4.0 - CrossCutting", "{E27B8985-E1A0-4983-BC81-80D51DD79D04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uni.Academic.Data", "src\Uni.Academic.Data\Uni.Academic.Data.csproj", "{834EB645-839A-4FCC-8CF2-B5D6FCE2D173}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Data", "src\Uni.Academic.Data\Uni.Academic.Data.csproj", "{834EB645-839A-4FCC-8CF2-B5D6FCE2D173}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uni.Academic.Shared", "src\Uni.Academic.Shared\Uni.Academic.Shared.csproj", "{31AC0573-72E0-4E34-8F99-A9A3FB8432C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Shared", "src\Uni.Academic.Shared\Uni.Academic.Shared.csproj", "{31AC0573-72E0-4E34-8F99-A9A3FB8432C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uni.Academic.Data.Test", "src\Uni.Academic.Data.Test\Uni.Academic.Data.Test.csproj", "{48F0D5D8-B6E9-499C-B48B-0F2D4A9B7ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +45,10 @@ Global
 		{31AC0573-72E0-4E34-8F99-A9A3FB8432C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31AC0573-72E0-4E34-8F99-A9A3FB8432C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AC0573-72E0-4E34-8F99-A9A3FB8432C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48F0D5D8-B6E9-499C-B48B-0F2D4A9B7ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48F0D5D8-B6E9-499C-B48B-0F2D4A9B7ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48F0D5D8-B6E9-499C-B48B-0F2D4A9B7ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48F0D5D8-B6E9-499C-B48B-0F2D4A9B7ED5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +62,7 @@ Global
 		{E27B8985-E1A0-4983-BC81-80D51DD79D04} = {1EEE73E6-71C6-42BD-8E55-B9C26F278E8F}
 		{834EB645-839A-4FCC-8CF2-B5D6FCE2D173} = {55320C0E-CF2C-4A4B-9514-7D6C0FF2C82E}
 		{31AC0573-72E0-4E34-8F99-A9A3FB8432C4} = {E27B8985-E1A0-4983-BC81-80D51DD79D04}
+		{48F0D5D8-B6E9-499C-B48B-0F2D4A9B7ED5} = {55320C0E-CF2C-4A4B-9514-7D6C0FF2C82E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F07C0492-2A94-439C-8497-7D27815EE811}

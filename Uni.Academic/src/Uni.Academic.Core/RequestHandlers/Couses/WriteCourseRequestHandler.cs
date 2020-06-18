@@ -18,7 +18,7 @@ namespace Uni.Academic.Core.RequestHandlers.Couses
 
         public Task<OperationResult> Handle(RegisterCouseRequest request, CancellationToken cancellationToken)
         {
-            if (_repoCourse.ExistsCourseWithDescription(request.Description))
+            if (_repoCourse.ExistsCourse(request.Description))
                 return Error(new NameAlreadyExistsException()).AsTask;
 
             // TODO...

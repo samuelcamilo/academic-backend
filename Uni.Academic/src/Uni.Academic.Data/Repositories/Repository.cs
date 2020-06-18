@@ -56,6 +56,7 @@ namespace Uni.Academic.Data.Repositories
 
         public bool Exists(long id)
             => _currentSet.Any(x => x.Id == id);
+
         private static TEntity CreateInstance<TEntity>()
             => (TEntity)Activator.CreateInstance(typeof(TEntity), BindingFlags.NonPublic | BindingFlags.CreateInstance | BindingFlags.Instance, null, null, null);
 
