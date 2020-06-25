@@ -14,5 +14,11 @@ namespace Uni.Academic.Core.Models
         public string Period { get; private set; }
 
         public Subject() { }
+
+        public Subject(string description, string code)
+        {
+            this.Description = description;
+            this.Code = code;
+        }
     }
 }

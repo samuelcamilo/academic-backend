@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Uni.Academic.Core.Commons;
 
 namespace Uni.Academic.Core.Models
@@ -16,5 +17,11 @@ namespace Uni.Academic.Core.Models
             this.Description = description;
             this.Resume = resume;
         }
+
+        public void Add(Subject subject)
+            => CourseSubjects.Add(new CourseSubjects(Id, subject.Id));
+
+        public void AddSubjectsIds(long[] subjectsIds)
+            => CourseSubjects.AddRange(subjectsIds.Select(c => new CourseSubjects(Id, c)));
     }
 }
