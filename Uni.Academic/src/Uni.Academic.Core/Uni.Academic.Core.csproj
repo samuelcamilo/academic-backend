@@ -12,4 +12,8 @@
     <ProjectReference Include="..\Uni.Academic.Shared\Uni.Academic.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="RequestHandlers\Couses\Validations\" />
+  </ItemGroup>
+
 </Project>

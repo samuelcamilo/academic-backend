@@ -9,14 +9,14 @@ using static Uni.Academic.Shared.OperationResult;
 
 namespace Uni.Academic.Core.RequestHandlers.Couses
 {
-    public class WriteCourseRequestHandler : IRequestHandler<RegisterCouseRequest, OperationResult>
+    public class WriteCourseRequestHandler : IRequestHandler<RegisterCourseRequest, OperationResult>
     {
         private readonly IRepositoryCourse _repoCourse;
 
         public WriteCourseRequestHandler(IRepositoryCourse repoCourse)
             => _repoCourse = repoCourse;
 
-        public Task<OperationResult> Handle(RegisterCouseRequest request, CancellationToken cancellationToken)
+        public Task<OperationResult> Handle(RegisterCourseRequest request, CancellationToken cancellationToken)
         {
             if (_repoCourse.ExistsCourse(request.Description))
                 return Error(new NameAlreadyExistsException()).AsTask;
