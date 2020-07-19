@@ -15,10 +15,11 @@ namespace Uni.Academic.Core.Models
 
         public Subject() { }
 
-        public Subject(string description, string code)
+        public Subject(string description, string code, long teacherId)
         {
             this.Description = description;
             this.Code = code;
+            this.TeacherId = teacherId;
         }
     }
 }

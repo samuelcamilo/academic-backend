@@ -13,5 +13,12 @@ namespace Uni.Academic.Core.Models
         public List<UserHobbies> UserHobbies { get; private set; }
 
         public User() { }
+
+        public User(string firstName, string lastName, string cpf)
+        {
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.CPF = cpf;
+        }
     }
 }

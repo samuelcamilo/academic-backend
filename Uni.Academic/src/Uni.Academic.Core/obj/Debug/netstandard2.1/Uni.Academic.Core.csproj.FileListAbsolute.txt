@@ -9,4 +9,3 @@ E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Core\obj\De
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Core\obj\Debug\netstandard2.1\Uni.Academic.Core.csproj.CopyComplete
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Core\obj\Debug\netstandard2.1\Uni.Academic.Core.dll
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Core\obj\Debug\netstandard2.1\Uni.Academic.Core.pdb
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Core\obj\Debug\netstandard2.1\Uni.Academic.Core.csproj.CoreCompileInputs.cache

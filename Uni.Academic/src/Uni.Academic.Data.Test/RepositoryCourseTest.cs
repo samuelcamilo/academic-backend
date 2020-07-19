@@ -47,31 +47,30 @@ namespace Uni.Academic.Data.Test
         public void SholdInsertCourseWithSubjects()
         {
             // arrange
-            var subject1 = new Subject("1", "1");
-            var subject2 = new Subject("2", "2");
-            var subject3 = new Subject("3", "3");
-            var subject4 = new Subject("4", "4");
+            var teacher = new User("Samuel", "Camilo", "123465789");
+
+            _context.Users.Add(teacher);
+            _context.SaveChanges();
+
+            var subject1 = new Subject("Engenharia de Software I", "ENGS-I", 1);
+            var subject2 = new Subject("Banco de Dados I", "BAD-I", 1);
+            var subject3 = new Subject("Construção e Ánalise de Algoritmos", "CANA", 1);
 
             _context.Subjects.Add(subject1);
             _context.Subjects.Add(subject2);
             _context.Subjects.Add(subject3);
-            _context.Subjects.Add(subject4);
-
             _context.SaveChanges();
 
-
-            var course = new Course("Psicologia", "Este curso ajudará a você...");
+            var course = new Course("Engenharia da Computação", "Este curso ajudará a você...");
 
             course.Add(subject1);
             course.Add(subject2);
             course.Add(subject3);
-            course.Add(subject4);
 
             _repository.Insert(course);
-            _context.SaveChanges();
 
             // act
-            var exists = _repository.ExistsCourse("Psicologia");
+            var exists = _repository.ExistsCourse("Engenharia da Computação");
 
             // assert
             Assert.True(exists);

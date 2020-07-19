@@ -8,7 +8,7 @@ namespace Uni.Academic.Core.Models
     {
         public string Description { get; private set; }
         public string Resume { get; private set; }
-        public List<CourseSubjects> CourseSubjects { get; private set; }
+        public List<CourseSubjects> CourseSubjects { get; private set; } = new List<CourseSubjects>();
 
         public Course() { }
 

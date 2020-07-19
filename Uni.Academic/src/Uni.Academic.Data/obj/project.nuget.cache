@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BM3LBEueaCJh8eYprlQRlPFOtuc9ncE7ofbTJuk09P2/7mT/9KnRaNxfzUodknIksqGGUPvhj0/LT35lzcccQQ==",
+  "dgSpecHash": "WjsAacDeQ4Gjz9XeH9HeTmDvk6TAC8adXGBQLHeG7PP/YsdwDwHl6Q1nF42ou2GX8Q+F4zz9NoZqQuAhdFtfcw==",
   "success": true,
   "projectFilePath": "E:\\Development\\GitHub\\academic-backend\\Uni.Academic\\src\\Uni.Academic.Data\\Uni.Academic.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ssamu\\.nuget\\packages\\fluentvalidation\\9.0.1\\fluentvalidation.9.0.1.nupkg.sha512",
     "C:\\Users\\ssamu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\ssamu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ssamu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

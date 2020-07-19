@@ -5,15 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="9.0.1" />
     <PackageReference Include="MediatR" Version="8.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Uni.Academic.Shared\Uni.Academic.Shared.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="RequestHandlers\Couses\Validations\" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "xHIAkQCpFPpqzYkikV8+1Gb5Tebl7UX9Uj9c7ztzYN+bF1Mt/en6rACmcCgOY+SwuRdK0vF0YYt8GIIQpiYdqQ==",
+  "dgSpecHash": "Cqzt98tdpGRSAC901UjulzG8oX2Lo7T9u1UCh32YpTPCez+FpkdOIqr2JxYNqIM89VzhKB+SfkBbhLUUmGXSAQ==",
   "success": true,
   "projectFilePath": "E:\\Development\\GitHub\\academic-backend\\Uni.Academic\\src\\Uni.Academic.Core\\Uni.Academic.Core.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ssamu\\.nuget\\packages\\fluentvalidation\\9.0.1\\fluentvalidation.9.0.1.nupkg.sha512",
     "C:\\Users\\ssamu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
   ],
   "logs": []
