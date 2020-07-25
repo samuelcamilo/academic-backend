@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using Uni.Academic.Core.Commons;
+using Uni.Academic.Core.Models;
 
 namespace Uni.Academic.Core.Interfaces.Repositories
 {

@@ -139,3 +139,4 @@ E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data.Test\b
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data.Test\obj\Debug\netcoreapp3.1\Uni.Academic.Data.Test.csproj.CoreCompileInputs.cache
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data.Test\obj\Debug\netcoreapp3.1\Uni.Academic.Data.Test.dll
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data.Test\obj\Debug\netcoreapp3.1\Uni.Academic.Data.Test.pdb
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Data.Test\bin\Debug\netcoreapp3.1\FluentValidation.dll
