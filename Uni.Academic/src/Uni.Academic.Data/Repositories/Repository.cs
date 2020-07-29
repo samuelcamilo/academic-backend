@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Linq;
 using System.Reflection;
-using Uni.Academic.Core.Commons;
 using Uni.Academic.Core.Interfaces.Repositories;
+using Uni.Academic.Core.Models;
 
 namespace Uni.Academic.Data.Repositories
 {

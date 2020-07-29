@@ -20,6 +20,14 @@
         }
       },
       "coverlet.collector/1.2.0": {},
+      "FluentValidation/9.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1.0"
+          }
+        }
+      },
       "MediatR/8.0.1": {
         "runtime": {
           "lib/netstandard2.0/MediatR.dll": {
@@ -1325,6 +1333,7 @@
       },
       "Uni.Academic.Core/1.0.0": {
         "dependencies": {
+          "FluentValidation": "9.0.1",
           "MediatR": "8.0.1",
           "Uni.Academic.Shared": "1.0.0"
         },
@@ -1364,6 +1373,13 @@
       "sha512": "sha512-ZB+EGXsVBIn8cew7D3S2c+rgIlokKv1dSwsXEoiFQaNXF/BSxp9Rlfz/jV1ehSWH5XpLitfRxFNW3ok7uPDOXA==",
       "path": "coverlet.collector/1.2.0",
       "hashPath": "coverlet.collector.1.2.0.nupkg.sha512"
+    },
+    "FluentValidation/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GeF+cPknUFFJ5FkCybmQShaXWwJowBuJozgns6In37wiP2zOWx+kdNPBAN9BlDyhcORdxtXeGnkLZ+OFT85onQ==",
+      "path": "fluentvalidation/9.0.1",
+      "hashPath": "fluentvalidation.9.0.1.nupkg.sha512"
     },
     "MediatR/8.0.1": {
       "type": "package",

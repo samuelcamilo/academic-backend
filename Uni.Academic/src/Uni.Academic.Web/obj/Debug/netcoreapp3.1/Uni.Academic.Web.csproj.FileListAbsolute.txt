@@ -59,3 +59,4 @@ E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Web\obj\Deb
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Web\obj\Debug\netcoreapp3.1\Uni.Academic.Web.pdb
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Web\obj\Debug\netcoreapp3.1\Uni.Academic.Web.genruntimeconfig.cache
 E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Web\bin\Debug\netcoreapp3.1\MediatR.dll
+E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Web\bin\Debug\netcoreapp3.1\FluentValidation.dll

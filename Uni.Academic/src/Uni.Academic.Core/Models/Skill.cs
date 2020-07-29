@@ -1,6 +1,4 @@
-﻿using Uni.Academic.Core.Commons;
-
-namespace Uni.Academic.Core.Models
+﻿namespace Uni.Academic.Core.Models
 {
     public class Skill : Entity
     {

@@ -1,5 +1,4 @@
 ﻿using System;
-using Uni.Academic.Core.Commons;
 
 namespace Uni.Academic.Core.Models
 {
