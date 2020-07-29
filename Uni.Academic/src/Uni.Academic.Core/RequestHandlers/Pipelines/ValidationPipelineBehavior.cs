@@ -15,9 +15,8 @@ namespace Uni.Academic.Core.RequestHandlers.Pipelines
     {
         private readonly AbstractValidator<TRequest> _validator;
         private readonly MethodInfo _operationResultError;
-        private readonly Type _type = typeof(TRequest);
+        private readonly Type _type = typeof(TResponse);
         private readonly Type _typeOperationResult = typeof(OperationResult);
-        private readonly Type _typeOperationResultGeneric = typeof(OperationResult<>);
 
         public ValidationPipelineBehavior(AbstractValidator<TRequest> validator)
         {
@@ -41,9 +40,6 @@ namespace Uni.Academic.Core.RequestHandlers.Pipelines
                 var operationResult = OperationResult.Error(new AcademicValidationFailedException(errors));
                 return Task.FromResult((TResponse)Convert.ChangeType(operationResult, _type));
             }
-
-            if (!_type.IsGenericType || _type.GetGenericTypeDefinition() != _typeOperationResultGeneric)
-                return next.Invoke();
 
             var validationError = new AcademicValidationFailedException(errors);
             return Task.FromResult((TResponse)Convert.ChangeType(_operationResultError.Invoke(null, new object[] { validationError }), _type));

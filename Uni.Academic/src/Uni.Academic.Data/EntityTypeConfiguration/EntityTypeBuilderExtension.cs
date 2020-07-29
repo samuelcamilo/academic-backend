@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Uni.Academic.Core.Commons;
+using Uni.Academic.Core.Models;
 
 namespace Uni.Academic.Data.EntityTypeConfiguration
 {

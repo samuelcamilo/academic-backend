@@ -1,6 +1,6 @@
 ﻿using System;
-using Uni.Academic.Core.Commons;
 using Uni.Academic.Core.Interfaces.Repositories;
+using Uni.Academic.Core.Models;
 
 namespace Uni.Academic.Data.Test.Infra
 {
