@@ -31,18 +31,16 @@ namespace Uni.Academic.Core.RequestHandlers.Pipelines
         public Task<TResponse> Handle(TRequest request, CancellationToken cancellationToken, RequestHandlerDelegate<TResponse> next)
         {
             var validationResult = _validator.Validate(request);
+            
             if (validationResult.IsValid)
                 return next.Invoke();
 
             var errors = validationResult.Errors.GroupBy(v => v.PropertyName, v => v.ErrorMessage).ToDictionary(v => v.Key, v => v.Select(y => y));
-            if (_type == _typeOperationResult)
-            {
-                var operationResult = OperationResult.Error(new AcademicValidationFailedException(errors));
-                return Task.FromResult((TResponse)Convert.ChangeType(operationResult, _type));
-            }
-
             var validationError = new AcademicValidationFailedException(errors);
-            return Task.FromResult((TResponse)Convert.ChangeType(_operationResultError.Invoke(null, new object[] { validationError }), _type));
+
+            return _type == _typeOperationResult
+                ? Task.FromResult((TResponse)Convert.ChangeType(OperationResult.Error(validationError), _type))
+                : Task.FromResult((TResponse)Convert.ChangeType(_operationResultError.Invoke(null, new object[] { validationError }), _type));
         }
     }
 }

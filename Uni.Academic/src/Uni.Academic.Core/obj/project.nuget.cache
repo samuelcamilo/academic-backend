@@ -1,11 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "Cqzt98tdpGRSAC901UjulzG8oX2Lo7T9u1UCh32YpTPCez+FpkdOIqr2JxYNqIM89VzhKB+SfkBbhLUUmGXSAQ==",
+  "dgSpecHash": "mW8jMMvFmUDhrIiDnyHAO7Q2GN+hfydC0NVIqg30HNZDWA7CbimClvoVRX5w3FrFGPc+AGlyRn9hWl6SJ6UfUQ==",
   "success": true,
   "projectFilePath": "E:\\Development\\GitHub\\academic-backend\\Uni.Academic\\src\\Uni.Academic.Core\\Uni.Academic.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ssamu\\.nuget\\packages\\fluentvalidation\\9.0.1\\fluentvalidation.9.0.1.nupkg.sha512",
-    "C:\\Users\\ssamu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512"
+    "C:\\Users\\ssamu\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.7\\microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\ssamu\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

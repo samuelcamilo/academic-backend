@@ -159,7 +159,7 @@
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "3.1.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7",
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "runtime": {
@@ -280,7 +280,7 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "3.1.4",
           "Microsoft.Extensions.DependencyInjection": "3.1.4",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.4",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7",
           "Microsoft.Extensions.Options": "3.1.4"
         },
         "runtime": {
@@ -290,11 +290,11 @@
           }
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
         "runtime": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {
-            "assemblyVersion": "3.1.4.0",
-            "fileVersion": "3.100.420.21409"
+            "assemblyVersion": "3.1.7.0",
+            "fileVersion": "3.100.720.37108"
           }
         }
       },
@@ -1335,6 +1335,7 @@
         "dependencies": {
           "FluentValidation": "9.0.1",
           "MediatR": "8.0.1",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.7",
           "Uni.Academic.Shared": "1.0.0"
         },
         "runtime": {
@@ -1549,12 +1550,12 @@
       "path": "microsoft.extensions.logging/3.1.4",
       "hashPath": "microsoft.extensions.logging.3.1.4.nupkg.sha512"
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.4": {
+    "Microsoft.Extensions.Logging.Abstractions/3.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JNPxhw2XwhjfGFyIkA5eBfzUDPNpa6Q50HJ2F6lCAMoSa1GquAktTrl4PhEyTYFNmu09B0E90WhYsUb3kmSkOA==",
-      "path": "microsoft.extensions.logging.abstractions/3.1.4",
-      "hashPath": "microsoft.extensions.logging.abstractions.3.1.4.nupkg.sha512"
+      "sha512": "sha512-oD7LQbMuaqq/yAz8PKX0hl4+H/vDFTQHo8rxbKB36P1/bG8FG7JUVKBoHkSt1MaJUtgyiHrH1AlAhaucKUKyEg==",
+      "path": "microsoft.extensions.logging.abstractions/3.1.7",
+      "hashPath": "microsoft.extensions.logging.abstractions.3.1.7.nupkg.sha512"
     },
     "Microsoft.Extensions.Options/3.1.4": {
       "type": "package",
