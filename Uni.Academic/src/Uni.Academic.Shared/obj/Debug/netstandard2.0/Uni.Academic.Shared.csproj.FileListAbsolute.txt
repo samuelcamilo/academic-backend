@@ -1,9 +1,0 @@
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\bin\Debug\netstandard2.0\Uni.Academic.Shared.deps.json
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\bin\Debug\netstandard2.0\Uni.Academic.Shared.dll
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\bin\Debug\netstandard2.0\Uni.Academic.Shared.pdb
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\obj\Debug\netstandard2.0\Uni.Academic.Shared.csprojAssemblyReference.cache
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\obj\Debug\netstandard2.0\Uni.Academic.Shared.AssemblyInfoInputs.cache
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\obj\Debug\netstandard2.0\Uni.Academic.Shared.AssemblyInfo.cs
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\obj\Debug\netstandard2.0\Uni.Academic.Shared.csproj.CoreCompileInputs.cache
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\obj\Debug\netstandard2.0\Uni.Academic.Shared.dll
-E:\Development\GitHub\academic-backend\Uni.Academic\src\Uni.Academic.Shared\obj\Debug\netstandard2.0\Uni.Academic.Shared.pdb
