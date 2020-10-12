@@ -17,7 +17,7 @@ namespace Uni.Academic.Data.EntityTypeConfiguration
             builder.ToTable("Courses");
             builder.ApplyDefaultConfig();
 
-            SeedCourse(builder);
+            //SeedCourse(builder);
         }
 
         private static void SeedCourse(EntityTypeBuilder<Course> builder)
