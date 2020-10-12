@@ -9,10 +9,12 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="5.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Uni.Academic.Data\Uni.Academic.Data.csproj" />
+    <ProjectReference Include="..\Uni.Academic.IoC\Uni.Academic.IoC.csproj" />
   </ItemGroup>
 
 
