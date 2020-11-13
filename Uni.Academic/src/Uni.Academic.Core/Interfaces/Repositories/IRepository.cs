@@ -12,6 +12,7 @@ namespace Uni.Academic.Core.Interfaces.Repositories
         bool Exists(long id);
         T Get(long id);
         T GetAsNoTracking(long id);
+        TViewModel GetProjected<TViewModel>(long id);
         IQueryable<T> GetAll(); 
     }
 }

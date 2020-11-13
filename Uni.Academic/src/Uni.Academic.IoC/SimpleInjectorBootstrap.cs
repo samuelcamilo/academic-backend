@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using Uni.Academic.Data.Repositories;
 using SimpleInjector;
-using Uni.Academic.Core.Interfaces.Repositories;
 using System.Reflection;
 using Uni.Academic.Core.RequestHandlers.Pipelines;
 using MediatR;
@@ -10,19 +9,23 @@ using MediatR.Pipeline;
 using System.Linq;
 using FluentValidation;
 using Uni.Academic.Core.Models;
-using IConfiguration = Microsoft.Extensions.Configuration.IConfiguration;
+using AutoMapper.Configuration;
+using AutoMapper;
+using AutoMapper.Extensions.ExpressionMapping;
 
 namespace Uni.Academic.IoC
 {
     public static class SimpleInjectorBootstrap
     {
         private static readonly Type _repositoryType = typeof(Repository<>);
+        private static readonly Type _profileType = typeof(Profile);
         private static readonly Type _entityType = typeof(Entity);
 
         public static void Initialize(Container container)
         {
             ConfigureDefaultImplementations(container);
             ConfigureValidators(container);
+            ConfigureAutoMapper(container);
             ConfigureMediatR(container);
         }
 
@@ -79,6 +82,25 @@ namespace Uni.Academic.IoC
             container.Collection.Register(typeof(IRequestPostProcessor<,>));
 
             container.Register(() => new ServiceFactory(container.GetInstance), Lifestyle.Singleton);
+        }
+
+        private static void ConfigureAutoMapper(Container container)
+        {
+            var mce = new MapperConfigurationExpression();
+            mce.ConstructServicesUsing(container.GetInstance);
+
+            var profiles = _repositoryType.Assembly.ExportedTypes
+                .Where(type => !type.IsAbstract && _profileType.IsAssignableFrom(type))
+                .Select(Activator.CreateInstance)
+                .Cast<Profile>();
+
+            mce.AddProfiles(profiles);
+            mce.AddExpressionMapping();
+
+            var mc = new MapperConfiguration(mce);
+            mc.AssertConfigurationIsValid();
+
+            container.RegisterSingleton<IMapper>(() => new Mapper(mc, container.GetInstance));
         }
 
         private static IEnumerable<Assembly> GetAssemblies()

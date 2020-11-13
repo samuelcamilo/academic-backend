@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using AutoMapper.Extensions.ExpressionMapping;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System;
 using System.Linq;
@@ -13,11 +15,13 @@ namespace Uni.Academic.Data.Repositories
     {
         protected readonly AcademicContext _context;
         protected readonly DbSet<T> _currentSet;
+        protected IConfigurationProvider _mapperConfigProvider;
 
-        public Repository(AcademicContext context)
+        public Repository(AcademicContext context, IMapper mapper)
         {
             this._context = context;
             this._currentSet = _context.Set<T>();
+            this._mapperConfigProvider = mapper.ConfigurationProvider;
         }
 
         public long Insert(T entity)
@@ -50,6 +54,9 @@ namespace Uni.Academic.Data.Repositories
 
         public T GetAsNoTracking(long id)
             => _currentSet.AsNoTracking().FirstOrDefault(x => x.Id == id);
+
+        public TViewModel GetProjected<TViewModel>(long id)
+            => _currentSet.Where(x => x.Id == id).UseAsDataSource(_mapperConfigProvider).For<TViewModel>().FirstOrDefault();
 
         public IQueryable<T> GetAll()
             => _currentSet;
