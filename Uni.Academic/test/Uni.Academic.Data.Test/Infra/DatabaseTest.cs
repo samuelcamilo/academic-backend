@@ -13,7 +13,7 @@ namespace Uni.Academic.Data.Test.Infra
 
         public DatabaseTest(DatabaseFixture fixture)
         {
-            _repository = (TRepository)Activator.CreateInstance(typeof(TRepository), fixture.Context);
+            _repository = (TRepository)Activator.CreateInstance(typeof(TRepository), fixture.Context, fixture.Mapper);
             _context = fixture.Context;
         }
     }

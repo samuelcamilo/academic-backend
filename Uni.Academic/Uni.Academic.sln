@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Shared", "src\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Web", "src\Uni.Academic.Web\Uni.Academic.Web.csproj", "{F0F2E82E-2069-462D-8BB5-64E4167EE517}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C6E5E5C4-6AB7-4024-B88F-4B145FDA9D76}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Core.Test", "test\Uni.Academic.Core.Test\Uni.Academic.Core.Test.csproj", "{3F18C98C-6984-4554-84B3-B53237DE3965}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0 - Presentation", "1.0 - Presentation", "{DFB239E1-83DC-4EBB-80A1-C95A3AE73369}"
@@ -27,7 +25,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.0 - Infra", "3.0 - Infra"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.0 - CrossCutting", "4.0 - CrossCutting", "{CF3A4449-AEE5-4006-BBE1-A2FB8F991DBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uni.Academic.Data.Test", "test\Uni.Academic.Data.Test\Uni.Academic.Data.Test.csproj", "{ECD18131-A9AB-4988-8BA5-2737C74C8C33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uni.Academic.Data.Test", "test\Uni.Academic.Data.Test\Uni.Academic.Data.Test.csproj", "{ECD18131-A9AB-4988-8BA5-2737C74C8C33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
