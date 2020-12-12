@@ -5,9 +5,9 @@ The idea of the system is to create an academic for universities. Its constructi
   - AspNet Core 3.1
   - WebApi C#
   - Entity FrameWork Core
-  - TODO 
-  - TODO
-  - TODO
+  - AutoMapper 
+  - MediatR
+  - Simple Injection
 
 # Features!
 
