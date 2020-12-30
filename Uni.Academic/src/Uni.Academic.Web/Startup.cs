@@ -38,11 +38,13 @@ namespace Uni.Academic.Web
             });
 
             services.AddSimpleInjector(_container, c => c.AddAspNetCore().AddControllerActivation());
+            services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseSwagger();
             app.UseSimpleInjector(_container);
             _container.Verify();
 
@@ -55,6 +57,10 @@ namespace Uni.Academic.Web
 
             app.UseRouting();
             app.UseAuthorization();
+
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "QAcademic BackEnd");
+            });
 
             app.UseEndpoints(endpoints =>
             {
